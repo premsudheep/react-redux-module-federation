@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  height: calc(110vh - 64px);
+  background-color: white;
+  @apply bg-gray-200;
+}
+
+.main > section {
+  padding: 32px;
+  @apply w-full;
+}
